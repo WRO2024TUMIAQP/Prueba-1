@@ -7,6 +7,6 @@
 <body>
     <h1>TUMI-AQP WRO 2024</h1>
     <h3>Repository for TUMI-AQP WRO Future Engineers</h3>
-   <img src="logo.png" alt=" TEAM TUMI">
+   <img src="Formal-photo.jpg" alt=" TEAM TUMI">
 </body>
 </html>
