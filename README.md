@@ -29,3 +29,5 @@
 ![Lenguajes](https://img.shields.io/github/languages/top/Futuros-Ingenieros/WRO2024)
 > **Electronics:**  
 > El sistema electrónico fue cuidadosamente diseñado para integrar todos los sensores y actuadores con la unidad central de procesamiento. Usamos una PCB personalizada para simplificar las conexiones y reducir las posibilidades de errores de cableado, lo que podría llevar a fallos en el sistema.
+> [!TIP]
+> In order to choose the apropiate materials, we made a design and a table of components with all our options. Then, we selected the ones that seemed the most efficient to us.
