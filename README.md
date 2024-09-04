@@ -14,11 +14,39 @@
 ![Lenguajes](https://img.shields.io/github/languages/top/Futuros-Ingenieros/WRO2024)
 # Equipo WRO 2024 - Futuros Ingenieros
 
-| Nombre   | Rol                                         | Descripción                                                                 |
-|----------|---------------------------------------------|-----------------------------------------------------------------------------|
-| Joshua   | Estratega y Analista Técnico                | El cerebro estratégico que siempre encuentra la mejor solución 🧩.           |
-| Lucy     | Creativa y Diseñadora Técnica               | La mente creativa que da vida a nuestros diseños innovadores 🎨.             |
-| Gabriel  | Electrónica, Programación y Optimización    | Especialista en electrónica y optimización de sistemas complejos 🔧.         |
-| Cristian | Mentor                                      | Experto en robótica que nos guía con su vasta experiencia 🤖.               |
-| Bruno    | Mentor                                      | Especialista en sistemas y automatización que refuerza nuestras habilidades 🔌. |
-
+<table>
+  <thead>
+    <tr>
+      <th style="color: blue;">Nombre</th>
+      <th style="color: green;">Rol</th>
+      <th style="color: red;">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🧠 <strong>Joshua</strong></td>
+      <td>Estratega y Analista Técnico</td>
+      <td>El cerebro estratégico que siempre encuentra la mejor solución.</td>
+    </tr>
+    <tr>
+      <td>🎨 <strong>Lucy</strong></td>
+      <td>Creativa y Diseñadora Técnica</td>
+      <td>La mente creativa que da vida a nuestros diseños innovadores.</td>
+    </tr>
+    <tr>
+      <td>🔧 <strong>Gabriel</strong></td>
+      <td>Electrónica, Programación y Optimización</td>
+      <td>Especialista en electrónica y optimización de sistemas complejos.</td>
+    </tr>
+    <tr>
+      <td>🤖 <strong>Cristian</strong></td>
+      <td>Mentor</td>
+      <td>Experto en robótica que nos guía con su vasta experiencia.</td>
+    </tr>
+    <tr>
+      <td>🔌 <strong>Bruno</strong></td>
+      <td>Mentor</td>
+      <td>Especialista en sistemas y automatización que refuerza nuestras habilidades.</td>
+    </tr>
+  </tbody>
+</table>
