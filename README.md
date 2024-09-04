@@ -16,6 +16,8 @@
 
 # Equipo WRO 2024 - Futuros Ingenieros
 
+# Equipo WRO 2024 - Futuros Ingenieros
+
 | **Nombre**   | **Rol**                                      | **Descripción**                                                                |
 |--------------|----------------------------------------------|--------------------------------------------------------------------------------|
 | 🧠 **Joshua**   | **Estratega y Analista Técnico**             | **El cerebro estratégico que siempre encuentra la mejor solución.**             |
@@ -24,7 +26,6 @@
 | 🤖 **Cristian** | **Mentor**                                   | **Experto en robótica que nos guía con su vasta experiencia.**                  |
 | 🔌 **Bruno**    | **Mentor**                                   | **Especialista en sistemas y automatización que refuerza nuestras habilidades.**|
 
----
 
 ![Estado del Proyecto](https://img.shields.io/badge/Estado-En_Progreso-yellow)
 ![Lenguajes](https://img.shields.io/github/languages/top/Futuros-Ingenieros/WRO2024)
