@@ -10,3 +10,5 @@
    <img src="Formal-photo.jpg" alt=" TEAM TUMI">
 </body>
 </html>
+![Estado del Proyecto](https://img.shields.io/badge/Estado-En_Progreso-yellow)
+![Lenguajes](https://img.shields.io/github/languages/top/Futuros-Ingenieros/WRO2024)
