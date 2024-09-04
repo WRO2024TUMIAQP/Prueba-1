@@ -28,5 +28,8 @@
 ![Estado del Proyecto](https://img.shields.io/badge/Estado-En_Progreso-yellow)
 ![Lenguajes](https://img.shields.io/github/languages/top/Futuros-Ingenieros/WRO2024)
 
-> [!TIP]
+> [!ELECTRONICS]
 > In order to choose the apropiate materials, we made a design and a table of components with all our options. Then, we selected the ones that seemed the most efficient to us.
+
+> 🛠️ **TIP:**  
+> In order to choose the appropriate materials, we made a design and a table of components with all our options. Then, we selected the ones that seemed the most efficient to us.
