@@ -33,3 +33,6 @@
 
 > 🛠️ **TIP:**  
 > In order to choose the appropriate materials, we made a design and a table of components with all our options. Then, we selected the ones that seemed the most efficient to us.
+
+> [!NOTE]
+> To optimize performance and extend the cart's runtime, we decided to replace the traditional batteries with LiPo cells.
