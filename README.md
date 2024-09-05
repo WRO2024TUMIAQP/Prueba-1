@@ -104,5 +104,44 @@ In this section, we describe the key materials used in the construction of our a
 
 # 3. Models
 
-We developed 3D models of the car to simulate its behavior and performance under various conditions. These models helped refine the design before actual production
+We developed 3D models of the car to simulate its behavior and performance under various conditions. These models helped refine the design before actual production, saving both time and resources.
+
+In this section, you can explore a variety of custom 3D models and 3D-printed parts created for our project. Each model has been crafted with attention to detail, ensuring compatibility with competition standards.
+
+![During printing](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-3D/MODELS-3D/IMPRESION-3D.png)
+
+> [!TIP]
+> You can find the design files for the 3D-printed parts in the folder [/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-3D/MODELS-3D) of the repository.
+
+## 3.1 PCB Board  
+![PCB BOARD](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/PCB/PLACA_PCB.png)
+
+We designed a PCB to consolidate all the electronic components of the autonomous robot into a compact and organized structure, minimizing connection errors and improving system efficiency. This board allows us to effectively integrate the ESP32, which processes sensor data and controls the actuators. The 7 TOF VL53L0X sensors measure distances precisely, and the TCS3200 color sensor detects visual signals on the track. Additionally, the MPU6050 gyroscope ensures the robot's stability, while the ESP32 CAM captures images of the environment. The MG995 servo motor, controlled by the H-Bridge TB6612FNG driver, manages steering.
+
+> [!NOTE]
+> You can view the 2D or 3D model of the PCB on Flux (the tool we used for design) at https://www.flux.ai/brunolc/roversa?editor=pcb_2d
+
+## 3.2 Ackerman Steering System
+
+The Ackerman steering system ensures that the front wheels follow different curved paths when turning, with the inner wheel turning at a sharper angle than the outer wheel. This system optimizes maneuverability in tight turns and prevents wheel slippage by reducing tire strain. In the context of WRO 2024, where the vehicle must follow complex paths and make 90° turns, the Ackerman geometry ensures that the car maintains its precision and stability during maneuvers, enhancing control on circuits with sharp curves.
+
+![MODEL 3D](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-3D/Ackerman-System.jpg)
+
+## 3.3 Differential System
+
+In the WRO 2024 Future Engineers challenge, the differential system is crucial for ensuring that the rear wheels rotate at different speeds during turns. When the vehicle takes a curve, the outer wheel travels a greater distance than the inner one, and the differential allows these speed adjustments, improving traction and reducing tire wear. This prevents skidding and helps maintain smooth and controlled movement, essential for the precise routes required in the competition.
+
+![MODEL 3D](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-3D/Differential-System.jpg)
+
+# 4. TOF System
+
+![First phase of the system ](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-System/First-Phase.png)
+
+## 4.1. First Phase
+The front TOF detects obstacles and guides the trajectory at a distance of 30 cm, while two additional specialized TOF sensors, placed at 30° on each side of the vehicle, detect the corners of the center of the track to improve precision in curve detection.
+
+![Second phase of the system ](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-System/Second-Phase.png)
+
+## 4.2. Second Phase
+The front and lateral TOF sensors anticipate the corners by detecting changes in distance and angle, generating a signal to activate the
 
