@@ -2,118 +2,107 @@
 
 ### TUMI-AQP Repository for WRO 2024 Future Engineers
 
-![TEAM TUMI](/T-PHOTOS/Formal-photo.jpg)
+![TEAM TUMI](T-PHOTOS/logo.png)
 
-# 1. 🤖 Equipo WRO 2024 - Futuros Ingenieros
+### Team's Name: ***TumiAQP***
+### Car's Name: ***Lujobel***
 
-¡Bienvenidos al repositorio del equipo **Futuros Ingenieros** de la **WRO 2024** representando a **Arequipa, Perú**! 🇵🇪
+# 1. WRO 2024 Team - Future Engineers
 
-## 1.1 🌟 Sobre Nosotros
+Welcome to the repository of the **Future Engineers** team for the **WRO 2024**, representing **Arequipa, Peru**! 🇵🇪
 
-| **Nombre**                        | **Rol**                                      | **Descripción**                                                               |
-|-----------------------------------|----------------------------------------------|--------------------------------------------------------------------------------|
-| **Joshua Huillca Fuentes**        | **Estratega y Analista Técnico**             | **El cerebro estratégico que siempre encuentra la mejor solución.**            |
-| **Lucy Pérez Casazola**           | **Creativa y Diseñadora Técnica**            | **La mente creativa que da vida a nuestros diseños innovadores.**              |
-| **Gabriel Palomino Mendoza**      | **Electrónica, Programación y Optimización** | **Especialista en electrónica y optimización de sistemas complejos.**          |
-| **Cristian Villca Balcón**        | **Mentor**                                   | **Experto en robótica que nos guía con su vasta experiencia.**                 |
-| **Bruno Layme Carpio**            | **Mentor**                                   | **Especialista en sistemas y automatización que refuerza nuestras habilidades.**|
+![TEAM TUMI](T-PHOTOS/Formal-photo.jpg)
 
-## 1.2 🚀 Nuestro Objetivo
+## 1.1 About Us
 
-Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxito en la **WRO 2024**. ¡Vamos con todo!
+| **Name**                        | **Role**                                     | **Description**                                                              |
+|----------------------------------|---------------------------------------------|-------------------------------------------------------------------------------|
+| **Joshua Huillca Fuentes**       | **Strategist and Technical Analyst**         | **The strategic brain who always finds the best solution.**                   |
+| **Lucy Pérez Casazola**          | **Creative and Technical Designer**          | **The creative mind that brings our innovative designs to life.**             |
+| **Gabriel Palomino Mendoza**     | **Electronics, Programming, and Optimization**| **Specialist in electronics and optimization of complex systems.**            |
+| **Cristian Villca Balcón**       | **Mentor**                                   | **Robotics expert who guides us with his vast experience.**                   |
+| **Bruno Layme Carpio**           | **Mentor**                                   | **System and automation specialist who strengthens our skills.**              |
+
+## 1.2 Our Goal
+
+We work as a team to achieve great things, with the goal of succeeding in the **WRO 2024**. Let’s go all out!
 
 ---
 > [!NOTE]
-> Este repositorio contiene toda la información relacionada con nuestro proyecto en la WRO 2024, incluyendo códigos, diseños y documentación técnica.
+> This repository contains all the information related to our project for the WRO 2024, including code, designs, and technical documentation.
 
-## Índice
+## Table of Contents
 
-1. [🤖 Equipo WRO 2024 - Futuros Ingenieros](#1-🤖-equipo-wro-2024---futuros-ingenieros)
-   - [🌟 Sobre Nosotros](#11-🌟-sobre-nosotros)
-   - [🚀 Nuestro Objetivo](#12-🚀-nuestro-objetivo)
-2. [🛠️ Hardware](#2-🛠️-hardware)
-   - [🔧 Componentes](#21-🔧-componentes)
-   - [⚡ Fuente de Poder](#211-⚡-fuente-de-poder)
-   - [🧱 Materiales de Construcción](#212-🧱-materiales-de-construcción)
-   - [🔌 Conectores y Cables](#213-🔌-conectores-y-cables)
-   - [🛠️ Herramientas y Adhesivos](#214-🛠️-herramientas-y-adhesivos)
-   - [💡 Otros Componentes Electrónicos](#215-💡-otros-componentes-electrónicos)
-3. [💻 Modelos](#3-💻-modelos)
-   - [📐 Placa PCB](#31-📐-placa-pcb)
-   - [🔄 Sistema Ackerman](#32-🔄-sistema-ackerman)
-   - [⚙️ Sistema Diferencial](#33-⚙️-sistema-diferencial)
+- [1. 🤖 WRO 2024 Team - Future Engineers](#1-wro-2024-team---future-engineers)
+  - [1.1 🌟 About Us](#11-about-us)
+  - [1.2 🚀 Our Goal](#12-our-goal)
+- [2. 🛠️ Hardware](#2-hardware)
+  - [2.1 🔧 Components](#21-components)
+    - [2.1.1 ⚡ Power Source](#211-power-source)
+    - [2.1.2 🧱 Construction Materials](#212-construction-materials)
+    - [2.1.3 🔌 Connectors and Cables](#213-connectors-and-cables)
+    - [2.1.4 🛠️ Tools and Adhesives](#214-tools-and-adhesives)
+    - [2.1.5 💡 Other Electronic Components](#215-other-electronic-components)
+- [3. Models](#3-models)
+  - [3.1 PCB Board](#31-pcb-board)
+  - [3.2 Ackerman Steering System](#32-ackerman-steering-system)
+  - [3.3 Differential System](#33-differential-system)
+- [4. TOF System](#4-tof-system)
+  - [4.1 First Phase](#41-first-phase)
+  - [4.2 Second Phase](#42-second-phase)
+  - [4.3 Third Phase](#43-third-phase)
+- [5. ESP32 CAM](#5-esp32-cam)
 
-## 2. 🛠️ Hardware
+# 2. Hardware
 
-En esta sección, describimos los materiales clave utilizados en la construcción de nuestro coche autónomo. Cada material fue cuidadosamente seleccionado para asegurar la máxima precisión y fiabilidad durante la competencia.
+In this section, we describe the key materials used in the construction of our autonomous vehicle. Each material was carefully selected to ensure maximum precision and reliability during the competition.
 
-## 2.1. 🔧 Componentes
+## 2.1. Components
 
 ![First Part of Components](V-PHOTOS/COMPONENTS/FIRST_PART_OF_COMPONENTS.png)
 ![Second Part of Components](V-PHOTOS/COMPONENTS/SECOND_PART_OF_COMPONENTS.png)
 
-### 2.1.1. ⚡ Fuente de Poder
+### 2.1.1. Power Source
 
 - **11.1V 1500mAh Battery:**  
-  Alimenta todos los componentes electrónicos, asegurando operación continua durante las pruebas y desafíos.
+  Powers all the electronic components, ensuring continuous operation during tests and challenges.
 
 - **LM2596 DC-DC Voltage Converter:**  
-  Ajusta el voltaje de la batería para alimentar correctamente los diferentes componentes del sistema.
+  Adjusts the battery voltage to correctly power the different system components.
 
-### 2.1.2. 🧱 Materiales de Construcción
+### 2.1.2. Construction Materials
 
-- **800g de Filamento PLA:**  
-  Utilizado en la impresión 3D de la estructura del coche, proporcionando un chasis ligero pero fuerte.
+- **800g of PLA Filament:**  
+  Used in the 3D printing of the car structure, providing a lightweight but strong chassis.
 
-- **1 x PCB de Cobre de 10x15cm:**  
-  Diseñada a medida para conectar eficientemente todos los componentes electrónicos, reduciendo la posibilidad de errores de cableado.
+- **1 x 10x15cm Copper PCB:**  
+  Custom-designed to efficiently connect all electronic components, reducing wiring errors.
 
-### 2.1.3. 🔌 Conectores y Cables
+### 2.1.3. Connectors and Cables
 
-- **1 x Paquete de Cables Dupont Hembra y Macho:**  
-  Utilizados para interconectar los componentes electrónicos, asegurando conexiones firmes y seguras.
+- **1 x Pack of Female and Male Dupont Cables:**  
+  Used to interconnect the electronic components, ensuring firm and secure connections.
 
-- **1 x Paquete de Cables Jumper de 15cm (Hembra-Hembra, Macho-Macho, Hembra-Macho):**  
-  Proporcionan flexibilidad en la configuración del circuito.
+- **1 x Pack of 15cm Jumper Cables (Female-Female, Male-Male, Female-Male):**  
+  Provides flexibility in the circuit configuration.
 
-- **1 x Paquete de Tornillos M3 (100 piezas, Hembra y Macho):**  
-  Utilizados para asegurar todas las piezas y componentes en su lugar.
+- **1 x Pack of M3 Screws (100 pieces, Female and Male):**  
+  Used to secure all parts and components in place.
 
-### 2.1.4. 🛠️ Herramientas y Adhesivos
+### 2.1.4. Tools and Adhesives
 
-- **1 x Kit de Soldadura (Soldador de 30W, Estaño):**  
-  Esencial para realizar conexiones permanentes y asegurar la integridad del circuito.
+- **1 x Soldering Kit (30W Soldering Iron, Solder):**  
+  Essential for making permanent connections and ensuring circuit integrity.
 
-- **2 x Tubos de Pegamento (Triz) y 1 x 100g de Bicarbonato de Sodio:**  
-  Utilizados para asegurar piezas pequeñas y realizar reparaciones rápidas.
+- **2 x Glue Tubes (Triz) and 1 x 100g of Baking Soda:**  
+  Used to secure small parts and make quick repairs.
 
-### 2.1.5. 💡 Otros Componentes Electrónicos
+### 2.1.5. Other Electronic Components
 
-- **1 x Interruptor Deslizante de Dos Posiciones:**  
-  Utilizado para encender y apagar el sistema de manera segura.
+- **1 x Two-Position Slide Switch:**  
+  Used to safely turn the system on and off.
 
-## 3. 💻 Modelos
+# 3. Models
 
-Desarrollamos modelos 3D del coche para simular su comportamiento y rendimiento bajo diversas condiciones. Estos modelos ayudaron a afinar el diseño antes de la producción real, ahorrando tanto tiempo como recursos.
-
-En esta sección, puedes explorar una variedad de modelos 3D personalizados y piezas impresas en 3D creadas para nuestro proyecto. Cada modelo ha sido elaborado con atención al detalle, asegurando la compatibilidad con los estándares de la competencia.
-
-![During printing](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-3D/MODELS-3D/IMPRESION-3D.png)
-
-> [!TIP]
-> Puedes encontrar los archivos de diseño para las piezas impresas en 3D en la carpeta [/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D](./V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D) del repositorio.
-
-### 3.1. 📐 Placa PCB  
-![PLACA PCB](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/PCB/PLACA_PCB.png)
-
-Diseñamos una placa PCB para consolidar todos los componentes electrónicos del robot autónomo en una estructura compacta y ordenada, minimizando errores de conexión y mejorando la eficiencia del sistema. Esta placa nos permite integrar de manera efectiva el ESP32, que procesa la información de los sensores y controla los actuadores. Los 7 sensores TOF VL53L0X miden distancias con precisión, y el sensor de color TCS3200 detecta señales visuales en la pista. Además, el giroscopio MPU6050 garantiza la estabilidad del robot, mientras que la ESP32 CAM captura imágenes del entorno. El servomotor MG995, controlado por el driver H-Bridge TB6612FNG.
-
-> [!NOTE]
-> Puedes ver el modelo 2D o 3D de la placa en la pagina web de Flux (herramienta que utilizamos para su diseño) [Flux](https://www.flux.ai/brunolc/roversa?editor=pcb_2d).
-
-### 3.2. 🔄 Sistema Ackerman
-
-La dirección de Ackerman asegura que las ruedas delanteras sigan trayectorias curvas diferentes al girar, con la rueda interna girando en un ángulo mayor que la externa. Este sistema optimiza la maniobrabilidad en curvas cerradas y evita el deslizamiento de las ruedas al forzar menos los neumáticos. En el contexto del WRO2024, donde el vehículo debe seguir trayectorias complejas y realizar giros de 90°, la geometría de Ackerman garantiza que el auto mantenga su precisión y estabilidad durante las maniobras, mejorando el control en circuitos con curvas pronunciadas.
-
-![MODEL 3D](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-
+We developed 3D models of the car to simulate its behavior and performance under various conditions. These models helped refine the design before actual production
 
