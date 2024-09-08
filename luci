@@ -1,0 +1,49 @@
+// Definición de pines para los motores
+const int motorA_pin1 = 26;
+const int motorA_pin2 = 25;
+const int motorB_pin1 = 32;
+const int motorB_pin2 = 33;
+
+// Definición del canal PWM y la frecuencia
+const int freq = 5000;   // Frecuencia de 5 kHz
+const int resolution = 8; // Resolución de 8 bits (valores entre 0 y 255)
+const int motorA_channel1 = 0;
+const int motorA_channel2 = 1;
+const int motorB_channel1 = 2;
+const int motorB_channel2 = 3;
+
+// Constante máxima de RPM
+const int maxRPM = 800;
+
+void setup() {
+  // Configuración de los pines como salidas
+  pinMode(motorA_pin1, OUTPUT);
+  pinMode(motorA_pin2, OUTPUT);
+  pinMode(motorB_pin1, OUTPUT);
+  pinMode(motorB_pin2, OUTPUT);
+  
+  // Configuración de los canales PWM
+  ledcSetup(motorA_channel1, freq, resolution);
+  ledcSetup(motorA_channel2, freq, resolution);
+  ledcSetup(motorB_channel1, freq, resolution);
+  ledcSetup(motorB_channel2, freq, resolution);
+  
+  // Asignación de pines a los canales PWM
+  ledcAttachPin(motorA_pin1, motorA_channel1);
+  ledcAttachPin(motorA_pin2, motorA_channel2);
+  ledcAttachPin(motorB_pin1, motorB_channel1);
+  ledcAttachPin(motorB_pin2, motorB_channel2);
+}
+
+void loop() {
+  int rpmDeseadas = 400; // Cambia este valor para ajustar las RPM (0 a 800)
+
+  // Calcular el valor de PWM en función de las RPM deseadas
+  int velocidadPWM = map(rpmDeseadas, 0, maxRPM, 0, 255);
+
+  // Motores girando hacia adelante a las RPM deseadas
+  ledcWrite(motorA_channel1, velocidadPWM);
+  ledcWrite(motorA_channel2, 0);
+  ledcWrite(motorB_channel1, velocidadPWM);
+  ledcWrite(motorB_channel2, 0);
+  delay(2000);  // Gira los motores hacia adelante durante 2 segundos
