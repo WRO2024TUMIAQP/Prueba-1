@@ -1,0 +1,43 @@
+// Definición de pines para los motores
+const int motorA_pin1 = 26;
+const int motorA_pin2 = 25;
+const int motorB_pin1 = 32;
+const int motorB_pin2 = 33;
+
+void setup() {
+  // Configuración de pines como salidas
+  pinMode(motorA_pin1, OUTPUT);
+  pinMode(motorA_pin2, OUTPUT);
+  pinMode(motorB_pin1, OUTPUT);
+  pinMode(motorB_pin2, OUTPUT);
+}
+
+void loop() {
+  // Ejemplo de cómo hacer girar los motores hacia adelante
+  digitalWrite(motorA_pin1, HIGH);
+  digitalWrite(motorA_pin2, LOW);
+  digitalWrite(motorB_pin1, HIGH);
+  digitalWrite(motorB_pin2, LOW);
+  delay(2000);  // Gira los motores hacia adelante durante 2 segundos
+
+  // Detener los motores
+  digitalWrite(motorA_pin1, LOW);
+  digitalWrite(motorA_pin2, LOW);
+  digitalWrite(motorB_pin1, LOW);
+  digitalWrite(motorB_pin2, LOW);
+  delay(1000);  // Pausa de 1 segundo
+
+  // Hacer girar los motores hacia atrás
+  digitalWrite(motorA_pin1, LOW);
+  digitalWrite(motorA_pin2, HIGH);
+  digitalWrite(motorB_pin1, LOW);
+  digitalWrite(motorB_pin2, HIGH);
+  delay(2000);  // Gira los motores hacia atrás durante 2 segundos
+
+  // Detener los motores nuevamente
+  digitalWrite(motorA_pin1, LOW);
+  digitalWrite(motorA_pin2, LOW);
+  digitalWrite(motorB_pin1, LOW);
+  digitalWrite(motorB_pin2, LOW);
+  delay(1000);  // Pausa de 1 segundo
+}
